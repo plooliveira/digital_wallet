@@ -155,7 +155,7 @@ class _HomePageState extends State<HomePage> {
           selectedFontSize: SizeConfig.safeBlockHorizontal * 4,
           unselectedFontSize: SizeConfig.safeBlockHorizontal * 3.8,
           type: BottomNavigationBarType.fixed,
-          selectedItemColor: kPrimaryGreen,
+          selectedItemColor: kPrimaryBlue,
           //selectedIconTheme: IconThemeData(color: Colors.green),
           unselectedItemColor: Colors.white,
           backgroundColor: kHomeBackgroundColor,
@@ -194,13 +194,13 @@ class _HomePageState extends State<HomePage> {
                     width: SizeConfig.blockSizeHorizontal * 25,
                     height: SizeConfig.blockSizeHorizontal * 25,
                     child: CircleAvatar(
-                      backgroundColor: kPrimaryGreen,
+                      backgroundColor: kPrimaryBlue,
                       child: FaIcon(FontAwesomeIcons.userNinja, size: SizeConfig.blockSizeHorizontal * 15, color: kHomeBackgroundColor,),
                     ),
                   ),
                   SizedBox(height: 5,),
                   Text(
-                    _userName.split(' ')[0].capitalize(),
+                    _userName,
                     style: TextStyle(
                         fontSize: SizeConfig.safeBlockHorizontal * 6,
                         color: Colors.white),

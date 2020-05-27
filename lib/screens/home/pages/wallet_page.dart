@@ -142,7 +142,7 @@ class Wallet extends StatelessWidget {
                       width: SizeConfig.safeBlockHorizontal * 20,
                       height: SizeConfig.safeBlockHorizontal * 20,
                       child: CircleAvatar(
-                        backgroundColor: Color(0xff1CD77E),
+                        backgroundColor: kPrimaryBlue,
                         child: FaIcon(FontAwesomeIcons.users, color: kHomeBackgroundColor, size: SizeConfig.safeBlockHorizontal * 10,),
                       ),
                     ),
